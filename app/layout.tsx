@@ -7,10 +7,22 @@ export const metadata: Metadata = {
     "Custom Tattoo Studio in Bregenz, Vorarlberg. Individuelle Tattoos, traditionelle & moderne Stile. Jetzt Termin anfragen.",
   keywords: "tattoo, Bregenz, Vorarlberg, custom tattoo, Fat Foogo, Tattoo Studio",
   openGraph: {
-    title: "Fat Foogo Tattoo — Custom Tattoo Studio Bregenz",
-    description:
-      "Individuelle Tattoos von Fat Foogo in Bregenz. Traditionelle & moderne Stile.",
+    title: "Fat Foogo Tattoo Studio Bregenz",
+    description: "Custom Tattoo Studio in Bregenz — Individual Designs, traditionell & modern",
+    images: [
+      {
+        url: '/og?name=Fat%20Foogo%20Tattoo&tagline=Custom%20Tattoo%20%C2%B7%20Bregenz&color=%23CC0000',
+        width: 1200,
+        height: 630,
+      },
+    ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fat Foogo Tattoo Studio Bregenz",
+    description: "Custom Tattoo Studio in Bregenz — Individual Designs, traditionell & modern",
+    images: ['/og'],
   },
 };
 
