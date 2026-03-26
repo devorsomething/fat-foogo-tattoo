@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const UNSPLASH = {
   hero: "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?w=1920&q=80",
@@ -520,6 +521,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <WhatsAppButton phone="+43 664 456 7890" />
     </main>
   );
 }
