@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fat-foogo-tattoo.at/sitemap.xml
